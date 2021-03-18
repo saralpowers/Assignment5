@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     var form = window.document.getElementById('empForm');
 
     function process(e) {
-        id = document.getElementById("userInput");
+        id = document.getElementById("getInput");
         nameo = document.getElementById('userInput');
         ext = document.getElementById('userInput');
         email = document.getElementById('userInput');
