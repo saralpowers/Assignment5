@@ -10,17 +10,15 @@
         h1 {margin-bottom: 30px;}
         label {font-weight: bold;}
         input, select {margin-bottom: 10px;}
-        form {width: 30%; padding: 20px;}
-        fieldset {height:500px; width:400px; border:1px #F00 solid; background-color:lightgray;}
+        form {width: 30%; padding: 0px; height:500px; width:400px; border:1px #F00 solid; background-color:lightgray};
     </style>
 </head>
 <body class="mt-2 ml-4">
     <h1>Employee Management System</h1>
     <form id="empForm">
-      <fieldset>
 
-          <div class="col-md-6" id="id">
-            <label for="validationDefault01" class="form-label">8-Digit Employee ID</label>
+          <div class="col-md-6">
+            <label class="form-label">8-Digit Employee ID</label>
             <br><input type="text" id="id" maxlength="8" required>
           </div>
 
@@ -54,7 +52,7 @@
           <div class="col-12">
             <button class="btn btn-primary" type="submit" id="submit">Add Employee</button>
           </div>
-      </fieldset>
+
     </form>
   <script src="js/script.js"></script>
 </body>
